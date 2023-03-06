@@ -4,3 +4,4 @@
 
 layout: home
 ---
+Below are a number of projects I have taken on in my free time.
