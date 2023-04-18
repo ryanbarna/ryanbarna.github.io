@@ -5,7 +5,7 @@ date: 2023-04-16 19:43:50 -0600
 categories: jekyll update
 ---
 
-The heat in my 2000 Nissan Frontier blows both fuses when the heat is turned up to its highest setting. Given as it's winter in Montana, this project seemed even more appealing to me than it usually would. While the wiring diagrams in this post are specific to my vehicle, this process can be applied to any vehicle. 
+The heat in my 2000 Nissan Frontier blows both fuses when the heat is turned up to its highest setting. Given as it's winter in Montana, fixing this seemed even more appealing to me than it usually would. While the wiring diagrams in this post are specific to my vehicle, this process can be applied to any vehicle. 
 
 # Defining the Problem
 The heat in the truck goes out due to an excess number of amps that flow through the two 15 amp blower motor fuses. This happens only at the highest setting (fan switch #4) and happens every time, meaning that if this is a short, it is not an intermittent one. Both fuses are replaced each time, so this is not an issue of one fuse continuing to blow because its load-sharing counterpart is not available. To diagnose this much further, we will need access to the wiring diagrams for the heater circuit.
@@ -28,4 +28,4 @@ All the switches operated as expected, leaving only two likely cuprits for the p
 ![Motor](/assets/blower_motor.jpg)
 
 # Next Steps
-The non-OEM motor in this situation is likely the problem and I am currently testing it for proper operation. It is unlilkey that any of the #4 switch wiring within the truck would be exposed enough to short to another wire or ground. I will update this page as progress continues.
+The non-OEM motor in this situation is likely the problem and I am currently testing it for proper operation. It is unlikely that any of the #4 switch wiring within the truck would be exposed enough to short to another wire or ground. I will update this page as progress continues.
