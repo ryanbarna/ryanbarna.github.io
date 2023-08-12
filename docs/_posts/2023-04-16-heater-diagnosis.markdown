@@ -15,7 +15,7 @@ The heat in the truck goes out due to an excess number of amps that flow through
 A common problem in these trucks is the blower motor resistor. These resistor boards have multiple different paths that operate the motor at different speeds as some allow more power to flow to the motor than others. These fail regularly and result in a short circuit that blows the blower motor fuses. However, we can immediately rule this out as the wiring diagram indicates that the highest level switch bypasses the resistor entirely. This leaves only a couple more methods of failure to investigate. The switch could have a bad ground, the blower motor itself could be faulty, or the wiring for the #4 switch could be exposed and shorting out.
 
 # Testing
-The switch itself is simple to test using a multimeter. To access the switch outputs, I removed the glovebox, and disconneted the connector from the resistor board. I used the above schematic to identify the connector wires with their corresponding switch. 
+The switch itself is simple to test using a multimeter. To access the switch outputs, I removed the glovebox, and disconnected the connector from the resistor board. I used the above schematic to identify the connector wires with their corresponding switch. 
 
 <!-- ![Wiring A](/assets/wiring_a.png) -->
 
@@ -27,5 +27,5 @@ All the switches operated as expected, leaving only two likely cuprits for the p
 
 ![Motor](/assets/blower_motor.jpg)
 
-# Next Steps
-The non-OEM motor in this situation is likely the problem and I am currently testing it for proper operation. It is unlikely that any of the #4 switch wiring within the truck would be exposed enough to short to another wire or ground. I will update this page as progress continues.
+# Solution
+Inspection of the #4 switch wiring did not reveal any short to ground so I invested in a OEM blower motor to replace the old one. The motor arrived with no positive and negative terminal markings. However, it did have an arrow for the direction of spin, so I used multimeter attached to the terminals to determine the polarity by spinning the motor. I spliced the wires with Wago type connectors and made the blower motor terminal connections with spade connectors. The new motor no longer blew any fuses.
